@@ -6,7 +6,7 @@ function CommentItem({ comment }) {
     <li className="comment-item">
       <div className="commenter-info d-flex">
         <div className="commenter-img mr-3">
-          <img src={comment.image} alt={`${comment.name} image`} />
+          <img src={comment.image} alt={`${comment.name}`} />
         </div>
         <div>
           <p className="commenter-name mb-1">{comment.name}</p>

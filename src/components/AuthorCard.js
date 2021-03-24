@@ -16,7 +16,7 @@ function AuthorCard() {
       <div className="content">
         <div className="author-info d-flex pb-3">
           <div className="image mr-3">
-            <img src={Author} alt="author image" />
+            <img src={Author} alt="author img" />
           </div>
           <div className="namendesc">
             <p className="name mb-1">Jane Doe</p>
