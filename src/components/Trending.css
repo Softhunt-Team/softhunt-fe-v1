@@ -1,0 +1,16 @@
+.trending {
+  margin-bottom: 45px;
+}
+
+.trending h2 {
+  font-size: 24px;
+  margin-bottom: 34px;
+}
+
+.trending .trending-item {
+  width: 20%;
+}
+
+.trending .trending-item img {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.side-item {
+  list-style: none;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.side-item .product_image {
+  width: 14.42%;
+}
+
+.side-item .product_image img {
+  width: 100%;
+}
+
+.side-item .product_details p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.side-item .product_details p.product_name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.side-item .product_details p.product_description {
+  font-size: 15px;
+}

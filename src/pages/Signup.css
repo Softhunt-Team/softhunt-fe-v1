@@ -1,0 +1,59 @@
+.signup {
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.signup h1 {
+  font-size: 48px;
+  /* line-height: 114px; */
+  margin-bottom: 35px;
+}
+
+span.hunt {
+  color: #0057ff;
+}
+
+.signup__box {
+  max-width: 600px;
+  padding: 35px 70px;
+  background: #fff;
+}
+
+.signup__box h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
+
+.signup__box input {
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.signup__box .mid div:first-child {
+  width: 45%;
+  height: 1px;
+  border: black solid 1px;
+}
+
+.signup__box .mid div:last-child {
+  width: 45%;
+  height: 1px;
+  border: black solid 1px;
+}
+
+.signup__box .others__ img {
+  width: 35px;
+}
+
+.signup__box .tc-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+}

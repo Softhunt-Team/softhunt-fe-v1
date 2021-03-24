@@ -1,0 +1,38 @@
+.post-item {
+  background-color: #fff;
+  list-style: none;
+  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.3);
+}
+
+.post-item .post_content {
+  /* padding: 15px 28px; */
+}
+
+.post-item .post__image {
+  width: 18.5%;
+}
+
+.post-item .post__image img {
+  width: 100%;
+}
+
+.post-item .post__details {
+  width: 49.38%;
+}
+
+.post-item .post__details .post__name {
+  width: 49.38%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}
+
+.post-item .post__details p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.post-item .upvote__box {
+  width: 22.48%;
+  /* height: 100%; */
+  background: rgba(229, 229, 229, 0.13);
+}

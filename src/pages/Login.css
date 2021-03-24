@@ -1,0 +1,72 @@
+.login {
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login h1 {
+  font-size: 48px;
+  /* line-height: 114px; */
+  margin-bottom: 35px;
+}
+
+span.hunt {
+  color: #0057ff;
+}
+
+.login__box {
+  max-width: 600px;
+  padding: 35px 70px;
+  background: #fff;
+}
+
+.login__box h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
+
+.login__box input {
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  background: rgba(237, 242, 247, 1);
+}
+
+.login__box input:focus {
+  box-shadow: none;
+}
+
+.login__box .forgot-pwd {
+  color: #0057ff;
+}
+
+.login__box button {
+  background-color: #0057ff;
+}
+
+.login__box .mid div:first-child {
+  width: 45%;
+  height: 1px;
+  border: black solid 1px;
+}
+
+.login__box .mid div:last-child {
+  width: 45%;
+  height: 1px;
+  border: black solid 1px;
+}
+
+.login__box .others__ img {
+  width: 35px;
+}
+
+.login__box .tc-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+}
