@@ -4,7 +4,7 @@ import "./SideItem.css";
 
 const SideItem = (props) => {
   const truncate = (str) => {
-    return str.length > 60 ? str.substring(0, 35) + "..." : str;
+    return str.length > 70 ? str.substring(0, 50) + "..." : str;
   };
 
   return (

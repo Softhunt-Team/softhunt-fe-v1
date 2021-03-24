@@ -1,0 +1,26 @@
+.author-card {
+  background-color: #fff;
+}
+
+.author-card .author-info {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.author-card .author-info .image {
+  width: 60px;
+}
+
+.author-card .author-info .image img {
+  width: 100%;
+  border-radius: 500px;
+}
+
+.author-card .author-info .namendesc p.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.author-card .author-info .namendesc p.desc {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}

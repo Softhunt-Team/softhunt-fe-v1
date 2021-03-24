@@ -1,0 +1,35 @@
+.comment-item {
+  list-style: none;
+  margin-bottom: 36px;
+}
+
+.comment-item .commenter-info .commenter-img {
+  width: 48px;
+}
+
+.comment-item .commenter-info .commenter-img img {
+  width: 100%;
+  border-radius: 500px;
+}
+
+.comment-item .commenter-info p.commenter-name {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.comment-item .commenter-info p.commenter-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.comment-item .comment-info {
+  padding-left: 64px;
+}
+
+.comment-item .comment-info p.comment-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  /* font-weight: 500; */
+}

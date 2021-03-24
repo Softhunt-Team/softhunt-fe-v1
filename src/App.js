@@ -10,11 +10,12 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import ProductDetails from "./pages/ProductDetails";
 
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -24,6 +25,10 @@ function App() {
         </Route>
         <Route path="/signup">
           <Signup />
+        </Route>
+
+        <Route path="/post">
+          <ProductDetails />
         </Route>
 
         <Redirect to="/" />

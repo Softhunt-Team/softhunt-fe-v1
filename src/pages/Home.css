@@ -3,9 +3,14 @@
 }
 
 .home .post-list {
-  width: 63%;
+  width: 65%;
 }
 
 .home .sidebar {
   width: 31.67%;
+}
+
+.home .sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 34px;
 }

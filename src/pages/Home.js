@@ -64,8 +64,14 @@ const Home = () => {
             <PostList items={DUMMY_POSTS} />
           </div>
           <div className="sidebar">
-            <ProductWeek />
-            <SideList items={DUMMY_POSTS} />
+            <div>
+              <h2>Product of the week</h2>
+              <ProductWeek />
+            </div>
+            <div>
+              <h2>New Products</h2>
+              <SideList items={DUMMY_POSTS} />
+            </div>
           </div>
         </div>
       </div>
