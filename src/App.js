@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ProductDetails from "./pages/ProductDetails";
+import NewProduct from "./pages/NewProduct";
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
         <Route path="/post">
           <ProductDetails />
+        </Route>
+
+        <Route path="/new/post">
+          <NewProduct />
         </Route>
 
         <Redirect to="/" />

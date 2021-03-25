@@ -1,0 +1,45 @@
+.new-product {
+  padding: 50px 0;
+}
+
+.new-product .left {
+  width: 65%;
+}
+
+.new-product h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.new-product h2 {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.new-product input {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.new-product input::placeholder {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.new-product .first {
+  background-color: #fff;
+}
+
+.new-product .second {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.new-product button.submit-product {
+  background-color: #0069d9;
+  border: none;
+}
+
+.new-product .right {
+  width: 31.67%;
+}
